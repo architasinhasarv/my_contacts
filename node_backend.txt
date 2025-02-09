@@ -1,0 +1,58 @@
+flow-> server.js -> routes -> controller -> models 
+to run -> npm run dev
+
+
+
+npm init 
+package name: (app_contact_management) mycontact-api-node
+version: (1.0.0) (just press enter)
+description: This is express projiect for my contact management
+entry point: (index.js) server.js
+test command: (just press enter)
+git repository:(just press enter)
+keywords:(just press enter)
+author: Archita Sinha
+license: (ISC) MIT
+type: (commonjs) (just press enter)
+About to write to C:\Archita\node_contact_manager_app\app_contact_management\package.json:
+
+{
+  "name": "mycontact-api-node",
+  "version": "1.0.0",
+  "description": "This is express projiect for my contact management",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Archita Sinha",
+  "license": "MIT",
+  "type": "commonjs"
+}
+
+
+Is this OK? (yes) y
+
+
+
+npm install express
+
+npm install -g nodemon (with this no nedd to the start the server again and again)
+
+npm start dev
+
+npm I dotenv (to install the package)
+
+npm i express-async-handler
+
+npm i mongoose
+
+npm i bcrypt
+
+npm i jsonwebtoken
+npm install nodemailer
+
+
+npm install multer   --- to upload file
+
+npm install swagger-jsdoc swagger-ui-express
+
